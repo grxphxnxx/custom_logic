@@ -1,0 +1,15 @@
+[
+    {
+        "doctype": "Custom Field",
+        "dt": "Project",
+        "fieldname": "proj_ns_choice",
+        "label": "Namenswahl",
+        "fieldtype": "Select",
+        "insert_after": "project_name",
+        "options": "Auftrag neu
+Reparatur neu
+Ersatzteil neu
+MFK neu
+Manuelle Eingabe"
+    }
+]

@@ -1,0 +1,9 @@
+app_name = "custom_logic"
+app_title = "Custom Logic"
+app_publisher = "Dein Name"
+app_description = "Custom Naming Series und Logik"
+app_icon = "octicon octicon-file-directory"
+app_color = "grey"
+app_email = "dein.email@example.com"
+app_license = "MIT"
+fixtures = ["Custom Field", "Custom Naming Counter"]
