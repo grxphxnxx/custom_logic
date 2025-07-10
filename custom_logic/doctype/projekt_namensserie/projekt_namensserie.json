@@ -1,0 +1,110 @@
+{
+    "actions": [],
+    "allow_rename": 1,
+    "autoname": "field:series_name",
+    "creation": "2024-01-01 10:00:00.000000",
+    "doctype": "DocType",
+    "engine": "InnoDB",
+    "field_order": [
+        "series_name",
+        "series_label",
+        "prefix",
+        "aktuelle_nummer",
+        "increment_by",
+        "is_active",
+        "beschreibung"
+    ],
+    "fields": [
+        {
+            "fieldname": "series_name",
+            "fieldtype": "Data",
+            "in_list_view": 1,
+            "label": "Serien Name",
+            "reqd": 1,
+            "unique": 1
+        },
+        {
+            "fieldname": "series_label",
+            "fieldtype": "Data",
+            "in_list_view": 1,
+            "label": "Serien Bezeichnung",
+            "reqd": 1
+        },
+        {
+            "fieldname": "prefix",
+            "fieldtype": "Data",
+            "in_list_view": 1,
+            "label": "Präfix",
+            "reqd": 1
+        },
+        {
+            "fieldname": "aktuelle_nummer",
+            "fieldtype": "Int",
+            "in_list_view": 1,
+            "label": "Aktuelle Nummer",
+            "reqd": 1
+        },
+        {
+            "fieldname": "increment_by",
+            "fieldtype": "Int",
+            "default": "1",
+            "in_list_view": 1,
+            "label": "Inkrement",
+            "reqd": 1
+        },
+        {
+            "fieldname": "is_active",
+            "fieldtype": "Check",
+            "default": "1",
+            "in_list_view": 1,
+            "label": "Aktiv"
+        },
+        {
+            "fieldname": "beschreibung",
+            "fieldtype": "Small Text",
+            "label": "Beschreibung"
+        }
+    ],
+    "index_web_pages_for_search": 1,
+    "links": [],
+    "modified": "2024-01-01 10:00:00.000000",
+    "modified_by": "Administrator",
+    "module": "Custom Logic",
+    "name": "Projekt Namensserie",
+    "naming_rule": "By fieldname",
+    "owner": "Administrator",
+    "permissions": [
+        {
+            "create": 1,
+            "delete": 1,
+            "email": 1,
+            "export": 1,
+            "print": 1,
+            "read": 1,
+            "report": 1,
+            "role": "System Manager",
+            "share": 1,
+            "write": 1
+        },
+        {
+            "create": 1,
+            "delete": 1,
+            "email": 1,
+            "export": 1,
+            "print": 1,
+            "read": 1,
+            "report": 1,
+            "role": "Projects Manager",
+            "share": 1,
+            "write": 1
+        },
+        {
+            "read": 1,
+            "role": "Projects User"
+        }
+    ],
+    "sort_field": "modified",
+    "sort_order": "DESC",
+    "states": [],
+    "track_changes": 1
+}
