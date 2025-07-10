@@ -40,7 +40,7 @@ fixtures = [
         "dt": "Custom Field",
         "filters": [
             ["dt", "=", "Project"],
-            ["fieldname", "in", ["proj_ns_choice", "custom_project_id"]]
+            ["fieldname", "=", "proj_ns_choice"]  # Nur noch ein Feld
         ]
     }
 ]
