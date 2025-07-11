@@ -45,6 +45,11 @@ fixtures = [
     }
 ]
 
+after_migrate = [
+    "custom_logic.patches.v1_0.fuege_custom_felder_hinzu.execute",
+    "custom_logic.patches.v1_0.erstelle_projekt_namensserien.execute"
+]
+
 # Forward / to /app
 website_route_rules = [
     {"from_route": "/", "to_route": "/app"}
