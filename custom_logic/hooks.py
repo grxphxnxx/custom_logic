@@ -54,3 +54,6 @@ after_migrate = [
 website_route_rules = [
     {"from_route": "/", "to_route": "/app"}
 ]
+
+# Boot Session - wird bei jedem Login ausgeführt
+boot_session = "custom_logic.boot.enable_server_scripts"
