@@ -44,3 +44,8 @@ fixtures = [
         ]
     }
 ]
+
+# Forward / to /app
+website_route_rules = [
+    {"from_route": "/", "to_route": "/app"}
+]
