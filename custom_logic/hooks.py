@@ -15,3 +15,9 @@ app_version = "1.0.0"
 website_route_rules = [
     {"from_route": "/", "to_route": "/app"}
 ]
+
+doc_events = {
+    "Project": {
+        "autoname": "custom_logic.overrides.projekt.autoname"
+    }
+}
